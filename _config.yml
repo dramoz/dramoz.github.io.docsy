@@ -1,32 +1,46 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
 
-title: Docsy Jekyll
+title: Danilo Ramos, MSc, P.Eng.
+
+tagline: Embedded Systems Design, Tutorials, Projects and Guides
+
+description: >-                        # used by seo meta and the atom feed
+  Personal blog and website for Embedded Systems Designs
+  Tutorials, Projects with MCU, FPGAs
+
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: 'https://dramoz.github.io'
+
+github:
+  username: dramoz
+
+twitter:
+  username: dramoz1977
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: Danilo Ramos
+  email: dramoz@gmail.com
+  links:
+    # The first element serves as the copyright owner's link
+    - https://github.com/dramoz
+    - https://community.element14.com/members/dramoz
+    - https://www.hackster.io/dramoz
+    - https://www.linkedin.com/in/dramoz
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+
+google_site_verification: google-site-verification=e8PlCoi0UOY5SGE60r1luNuxmYoKY_XI9va3CGm_oQg
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
 email: your-email@domain.com
 author: Dinosaur Avocado
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
-# Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: ""
-
-# This is mostly for testing
-url: "https://vsoch.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
 repo: "https://github.com/vsoch/docsy-jekyll"
@@ -66,7 +80,6 @@ themeColor: red # purple, green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
 
 permalink: /:year/:title/
-markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
